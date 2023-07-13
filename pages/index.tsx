@@ -12,7 +12,10 @@ import { fetchClientSecret } from "../lib/utils";
 import styles from "../styles/Theme.module.css";
 
 // Put your contract ID here
-const contractID = "a97715b8-f7d5-4883-b8e2-2bd52d926fd0";
+//////const contractID = "a97715b8-f7d5-4883-b8e2-2bd52d926fd0";
+
+const contractID = "aa200911-eacd-4d96-8cee-df9fc1d193d4";
+
 
 enum CheckoutPage {
   CHOOSE_WALLET = "CHOOSE_WALLET",
@@ -32,7 +35,7 @@ const Home: NextPage = () => {
 
 
   return (
-    <PaperSDKProvider chainName="Goerli">
+    <PaperSDKProvider chainName="Polygon">
       
       <div id="background-wrap">
       
